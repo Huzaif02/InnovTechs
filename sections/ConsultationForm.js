@@ -10,11 +10,11 @@ const ConsultationForm = ({ isOpen, onClose }) => {
     message: "",
     dateTime: "",
   });
-
+  const baseurl = process.env.NEXT_PUBLIC_APP_URL || "";
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(`${process.env.NEXT_PUBLIC_APP_URL}/api/consultation`, userInput);
+      const res = await axios.post(`${baseurl}/api/consultation`, userInput);
       if (res.status === 200) {
         toast.success("Consultation request sent successfully!");
         onClose();
