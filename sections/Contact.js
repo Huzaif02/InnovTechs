@@ -85,7 +85,7 @@ const Contact = () => {
               </div>
               <div className='box'>
                 <BiUserCircle size={30} className='icons' />
-                <h3>hr@innovtechs..com</h3>
+                <h3>hr@innovtechs.com</h3>
                 <span>Career at Innovtechs</span>
               </div>
             </div>
