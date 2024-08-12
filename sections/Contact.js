@@ -135,7 +135,7 @@ const Contact = () => {
               </div>
               <div className='grid-2'>
                 <div className='inputs'>
-                  <span>your budget</span>
+                  <span>your budget ($)</span>
                   <input 
                     type='text' 
                     name="user_budget"
@@ -144,7 +144,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className='inputs'>
-                  <span>timeframe</span>
+                  <span>timeframe (in days)</span>
                   <input 
                     type='text'
                     name="timeframe" 
