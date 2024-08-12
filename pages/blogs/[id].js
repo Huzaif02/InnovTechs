@@ -1,14 +1,29 @@
-import { blogdata } from "@/assets/data/dummydata"
 import Banner from "@/components/Banner"
 import { Title, TitleSm } from "@/components/common/Title"
 import Head from "next/head"
 import { useRouter } from "next/router"
-import React from "react"
+import React, { useEffect, useState } from "react"
+import dynamic from "next/dynamic"
+
+// Dynamically import the blog data
+const blogdata = dynamic(
+  () => import("@/assets/data/dummydata"),
+  { ssr: false }
+);
 
 const SinglePost = () => {
   const router = useRouter()
   const { id } = router.query
-  const post = blogdata.find((post) => post.id === parseInt(id))
+  const [post, setPost] = useState(null)
+
+  useEffect(() => {
+    if (router.isReady && blogdata) {
+      const postData = blogdata.find((post) => post.id === parseInt(id))
+      setPost(postData)
+    }
+  }, [id, router.isReady])
+
+  if (!post) return <div>Loading...</div>
 
   return (
     <>
@@ -36,7 +51,6 @@ const SinglePost = () => {
           <div className='heading-title'>
             <div className='desc'>
               <TitleSm title='Integer a justo vitae arcu fermentum...' />
-
               <p className='desc-p'> Phasellus nec tempor neque. In nec finibus lorem, in aliquet risus. Proin elit elit, cursus vel vulputate at, volutpat quis metus. Praesent at blandit tellus.</p>
               <p className='desc-p'>Morbi finibus velit erat, a pulvinar lacus mollis sit amet. Nulla iaculis convallis fermentum. Suspendisse eget elit mauris. Phasellus velit nisi, lobortis quis nisi et, venenatis finibus velit. Integer non nibh eget arcu malesuada ullamcorper! Quisque congue ante in consequat auctor. Morbi ut accumsan eros. Mauris semper suscipit mattis. Cras pellentesque a urna ac dictum. Pellentesque blandit, sapien vel faucibus accumsan, ante dui imperdiet nisi, ut tincidunt nulla tortor nec purus.</p>
               <p className='desc-p'>Suspendisse eget elit mauris. Phasellus velit nisi, lobortis quis nisi et, venenatis finibus velit. Integer non nibh eget arcu malesuada ullamcorper.</p>
