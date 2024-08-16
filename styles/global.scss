@@ -53,6 +53,58 @@
   }
 }
 
+/*  Webdev Hero Section */
+.webdev-hero {
+  text-align: left;
+  padding: $xl-6 0;
+  padding-top: $xll-3;
+  height: 150vh !important;
+  overflow: hidden !important;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -40%;
+    width: 180%;
+    height: 200vh;
+    background-image: url("../assets/images/web-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    overflow-x: hidden !important;
+  }
+  .hero-title {
+    position: relative;
+    font-size: 65px;
+    font-weight: 600;
+    text-transform: inherit;
+    line-height: 70px;
+    margin: 0;
+    margin-right: 50%;
+    z-index: 0;
+
+    // font-size: $xll-3;
+    // line-height: 115px;
+    // font-weight: 600;
+    // margin: $xl-6 0;
+  }
+  .sub-heading {
+    display: flex;
+    justify-content: left;
+    .titleSm {
+      margin: 0;
+    }
+    span {
+      padding: 20px 5px 20px;
+      margin-right: 55%;
+      font-size: 20px;
+      line-height: 25px;
+      color:rgb(255, 255, 255);
+    }
+  }
+}
+
 // expertise
 .expertise {
   .card-img {
@@ -158,8 +210,8 @@ footer {
   border-top: 1px solid rgba($white, 0.2);
   overflow: hidden;
   .logo img {
-    max-width: 70%; /* Ensures the image is responsive */
-    max-height: 60%;    /* Maintains aspect ratio */
+    width: 500px; /* Ensures the image is responsive */
+    height: 70px;    /* Maintains aspect ratio */
   }
   .logobg {
     line-height: 0;
@@ -323,7 +375,28 @@ footer {
   height: 100px;
 }
 
+//MainFeatures
+.mission-p {
+  font-size: 16px;
+  line-height: 1.5;
+}
 
+.features-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.feature-item {
+  position: relative;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.feature-description {
+  font-size: 17px;
+}
 
 //contact
 .contact {

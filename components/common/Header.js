@@ -5,6 +5,8 @@ import { useEffect, useState } from "react"
 import { RiMenu4Line } from "react-icons/ri"
 import { AiOutlineClose } from "react-icons/ai"
 import ConsultationForm from "@/sections/ConsultationForm"
+import Image from "next/image"
+import new2 from "../../assets/images/new2.png"
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("")
@@ -27,7 +29,8 @@ const Header = () => {
         <div className='container'>
           <div className='logo'>
             <Link href='/'>
-              <TitleLogo title='Techs' caption='Innov' className='logomin' />
+              {/* <TitleLogo title='Techs' caption='Innov' className='logomin' /> */}
+              <Image src={new2} width={300} height={40}/>
             </Link>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>

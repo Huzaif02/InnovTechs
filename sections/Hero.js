@@ -6,13 +6,15 @@ import Testimonial from "@/components/Testimonial"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { BlogCard, Brand } from "@/components/router"
 import React from "react"
+import Image from "next/image"
+import new2 from "../assets/images/new2.png"
 
 const Hero = () => {
   return (
     <>
       <section className='hero'>
         <div className='container'>
-          <TitleLogo title='Techs' caption='Innov' className='logobg' />
+          <Image src={new2} width={500} height={60}/>
           <h1 className='hero-title'>WE BUILD DIGITAL EXPERIENCES</h1>
 
           <div className='sub-heading'>

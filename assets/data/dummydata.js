@@ -26,6 +26,7 @@ export const expertise = [
     id: 1,
     title: "Web Design & Development",
     cover: "../images/e1.jpg",
+    path: "/webdev",
     desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
   },
   {

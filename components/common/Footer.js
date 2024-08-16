@@ -6,6 +6,8 @@ import Image from "next/image"
 import logo from "../../assets/images/logo1.png"
 import logo1 from "../../assets/images/logo.png"
 import logo2 from "../../assets/images/logo2.png"
+import new1 from "../../assets/images/new1.png"
+import new2 from "../../assets/images/new2.png"
 
 const Footer = () => {
   return (
@@ -14,10 +16,9 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='Techs' caption='Innov' className='logo' />
-              <Image src={logo} width={300} height={100}/>              
-              <Image src={logo1} width={300} height={100}/>              
-              <Image src={logo2} width={300} height={100}/>              
+              {/* <TitleLogo title='Techs' caption='Innov' className='logo' /> */}
+              <Image src={new1} width={300} height={100}/>              
+              <Image src={new2} width={300} height={100}/>              
               <br/>
               <span>
                 Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
