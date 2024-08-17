@@ -98,7 +98,7 @@ const Webdevelopment = () => {
               <img src='/images/s4.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
             <div className='right w-60 ml'>
-              <TitleSm title='Web Design Services ' />
+              <TitleSm title='Web Development Services ' />
               <br />
               <p className='misson-p'>
               <ul className='features-list'>

@@ -6,7 +6,7 @@ import { BiUser } from "react-icons/bi"
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "3+ years of market experience",
   },
   {
     icon: <TfiRulerPencil size={25} />,
@@ -14,7 +14,7 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ Scuccessful cases in portfolio",
+    title: "10+ Scuccessful cases in portfolio",
   },
   {
     icon: <BiUser size={25} />,
@@ -32,13 +32,13 @@ export const expertise = [
   {
     id: 2,
     title: "Digital Marketing",
-    cover: "../images/e2.jpg",
+    cover: "../images/marketing.jpg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
   {
     id: 3,
     title: "E-Commerce",
-    cover: "../images/e3.jpg",
+    cover: "../images/ecommerce.jpg",
     desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
   },
   {
