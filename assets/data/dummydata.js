@@ -175,9 +175,10 @@ export const blogdata = [
 export const teamdata = [
   {
     id: 1,
-    title: "Alexander Black",
-    cover: "../images/t1.jpg",
+    title: "Huzaif Shaikh",
+    cover: "../images/huzaifshaikh.jpg",
     post: "FOUNDER, CEO",
+    path: "shaikhhuzaif.in"
   },
   {
     id: 2,
