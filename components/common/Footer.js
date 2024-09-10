@@ -17,7 +17,7 @@ const Footer = () => {
           <div className='grid-4'>
             <div className='logo'>
               {/* <TitleLogo title='Techs' caption='Innov' className='logo' /> */}
-              <Image src={new1} width={300} height={100}/>              
+              {/* <Image src={new1} width={300} height={100}/>               */}
               <Image src={new2} width={300} height={100}/>              
               <br/>
               <span>
@@ -27,7 +27,9 @@ const Footer = () => {
               <br />
               <h3>+91 83290 29230</h3>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              <Link href={'/contact'}>
+                <button className='button-primary'>Request for quote</button>            
+              </Link>
             </div>
             <ul>
               <h3>COMPANY</h3>
