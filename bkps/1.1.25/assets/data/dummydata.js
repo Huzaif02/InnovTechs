@@ -51,31 +51,31 @@ export const expertise = [
 export const testimonial = [
   {
     id: 1,
-    name: "Abdul Hamid Shaikh",
-    cover: "../images/royal.jpg",
-    post: "Royal Builders & Developers - Owner",
-    desc: "Innovtechs exceeded our expectations with their innovative approach and professional execution. Their team is highly skilled and dedicated to delivering exceptional results. We are thrilled with the outcome and highly recommend their services!",
+    name: "Alexander Black",
+    cover: "../images/e1.jpg",
+    post: "Seven consulting - CEO",
+    desc: "Innovtechs exceeded our expectations with their innovative approach and professional execution. Our online presence has never been stronger!",
   },
   {
     id: 2,
-    name: "Ukesh Rajpurohit",
+    name: "Diana Green",
     cover: "../images/e2.jpg",
-    post: "Fashion Point, Khopoli",
-    desc: "The team at Innovtechs transformed our offline fashion store into digital success. Their expertise in e-commerce and marketing has been instrumental in our growth. Highly recommend their services!",
+    post: "Seven Arts - marketing manager",
+    desc: "The team at Innovtechs transformed our outdated website into a modern, user-friendly platform that truly represents our brand. Highly recommend their services!",
   },
   {
     id: 3,
-    name: "Zubeda Shaikh",
-    cover: "../images/hiba.jpg",
-    post: "Hiba Heaven Rose - Owner",
-    desc: "We sought Innovtechs' consultation for scaling our business, and their insights have been invaluable. Our growth has been phenomenal since partnering with them.",
+    name: "Alice Brown ",
+    cover: "../images/e3.jpg",
+    post: "GreenTech - Marketing Director",
+    desc: "Thanks to Innovtechs' strategic SEO and Facebook ad campaigns, our lead generation has skyrocketed. Their expertise is unmatched!",
   },
   {
     id: 4,
-    name: "Faiz Shaikh",
+    name: "Sara Wilson",
     cover: "../images/e4.jpg",
-    post: "Faizwears - Owner",
-    desc: "Innovtechs' expertise in e-commerce and digital marketing has been instrumental in our success. Their team is highly skilled and dedicated to delivering exceptional results. We are thrilled with the outcome and highly recommend their services!",
+    post: "Eco-friendly Living - Manager",
+    desc: "We sought Innovtechs' consultation for scaling our business, and their insights have been invaluable. Our growth has been phenomenal since partnering with them.",
   },
 ]
 export const showcase = [
@@ -119,15 +119,15 @@ export const showcase = [
 export const brand = [
   {
     id: 1,
-    cover: "../images/royal.jpg",
+    cover: "../images/l1.svg",
   },
   {
     id: 2,
-    cover: "../images/hiba.jpg",
+    cover: "../images/l2.svg",
   },
   {
     id: 3,
-    cover: "../images/faizwears.jpg",
+    cover: "../images/l3.svg",
   },
   {
     id: 4,
@@ -145,31 +145,31 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-    title: "The Importance of Mobile Optimization in Digital Marketing",
+    title: "Ligula vel urna accumsan placerat",
     cover: "../images/b1.webp",
-    catgeory: "TIPS & TRICKS",
-    date: "August 6, 2024",
+    catgeory: "INDUSTRY",
+    date: "JANUARY 12, 2023",
   },
   {
     id: 2,
-    title: "How AI is Revolutionizing the IT Industry",
+    title: "Don’t underestimate the lorem ipsum dolor amet",
     cover: "../images/b2.jpg",
-    catgeory: "IT INDUSTRY",
-    date: "September 20, 2024",
+    catgeory: "TIPS & TRICKS",
+    date: "OCTOBER 20, 2023",
   },
   {
     id: 3,
-    title: "Transforming Businesses Through Creative IT Solutions",
+    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
     cover: "../images/b3.jpg",
-    catgeory: "INDUSTRY",
-    date: "OCTOBER 11, 2024",
+    catgeory: "TIPS & TRICKS",
+    date: "OCTOBER 9, 2023",
   },
   {
     id: 4,
-    title: "How to Build a User-Centric Website: Tips for Success",
+    title: "What eleifend posuere tincidunt",
     cover: "../images/b4.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "December 2, 2024",
+    catgeory: "EVENTS",
+    date: "OCTOBER 8, 2023",
   },
 ]
 export const teamdata = [

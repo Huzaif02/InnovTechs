@@ -135,7 +135,7 @@ const Contact = () => {
               </div>
               <div className='grid-2'>
                 <div className='inputs'>
-                  <span>your budget (INR)</span>
+                  <span>your budget ($)</span>
                   <input 
                     type='text' 
                     name="user_budget"
